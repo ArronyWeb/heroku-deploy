@@ -4,7 +4,7 @@ An application for deploying your local project .
 `````
 
 ## Global for one computer one time.
-- - 
+ 
 * Open a heorku account in the heroku application
 * You will get a verification mail in your PC confirm it and log in with that password.
 * Download the heroku as per the features of your pc.
@@ -16,7 +16,7 @@ An application for deploying your local project .
 
 
 ## For one time 
-- - 
+       
 * run [heroku create]
 * Make sure you have commited all the last changes of your projects.
 * And finally run [git push heroku main]
@@ -31,15 +31,15 @@ An application for deploying your local project .
 
 
 ## Error  in Heroku
-- - 
+ 
  __error code=H13 desc="Connection closed without response" method=GET path="/service" host=safe-plateau-81677.herokuapp.com request_id=8433286e-7f1e-49e6-9f79-ccc0b9c66530 fwd="119.157.102.26" dyno=web.1 connect=0ms service=7ms status=503 bytes=0 protocol=https
 2022-04-26T10:08:58.502660+00:00 heroku[web.1]: Process exited with status 1
 2022-04-26T10:09:28.822277+00:00 heroku[web.1]: State changed from up to crashed :question:__
 
 ## Solution
-- - 
-__:v:__
 
-Check your index.js remove the client.close() line from the code
+__:v:__ Check your index.js remove the client.close() line from the code
+
+
 
 
