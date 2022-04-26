@@ -26,9 +26,18 @@ An application for deploying your local project .
 * Copy paste all the key and value from your .env file to heroku key and value line.
 
 * Check the mongodb server that all the ip address connection is ok or not if not make it for all the ip address.
+
 * Now check your heroku URL with your service your want from mongoserver.
 
+## Update the server with new changes
+* Make changes
+* Make sure you : [git add .] [git commit -m""], [git push]
+* git push heroku main
 
+## Connect server with client
+* Replace all the link with heroku link
+* run [npm run build]
+* now deploy firebase [firebase deploy]
 
 ## Error  in Heroku
  
